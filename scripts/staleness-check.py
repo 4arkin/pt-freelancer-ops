@@ -3,7 +3,7 @@
 "Last verified" date is old or missing.
 
 Usage: python3 scripts/staleness-check.py [--months 12]
-Exit code 1 when anything is stale or undated, so it can run in CI.
+Exit code 1 when anything is stale or undated.
 """
 import argparse
 import re
