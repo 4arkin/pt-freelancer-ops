@@ -12,6 +12,17 @@ Built for and tested on: a **trabalhador independente** on **regime simplificado
 
 Not covered: contabilidade organizada bookkeeping, companies (Lda / Unipessoal), hiring staff of your own. Life events — being employed and freelancing at once, married or unido de facto filing, leaving Portugal — plus foreign accounts and investments, crypto, and Portuguese property have their own playbooks, researched rather than lived.
 
+## Works with
+
+| Tool | How to use it | Scheduled reminders |
+|---|---|---|
+| **Claude Code** (CLI or desktop app) | Open the folder. It reads `CLAUDE.md`, which points to `AGENTS.md`. | The Claude desktop app can create local scheduled tasks for the folder — ask it to set up the routines that apply to you. In the CLI, use a system cron line (`scripts/run-routine.sh`) or the calendar file. Cloud schedules can't see your local `profile.md` and `records/`. |
+| **Codex CLI** | Open the folder. It reads `AGENTS.md`. | System cron with `codex exec`, or the calendar file. |
+| **Gemini CLI** | Open the folder. It reads `GEMINI.md`, which points to `AGENTS.md`. | System cron with `gemini -p`, or the calendar file. |
+| **ChatGPT, Claude or Gemini chat apps** | They don't open local folders. Upload the files you need (playbooks, `GOTCHAS.md`, `calendar.md`) to a Project, Gem or chat and ask from there. | Import the calendar file (`python3 scripts/make-ics.py`). Chat-app reminders can't read your files. |
+
+Tested with Claude Code. Codex and Gemini CLI follow the same `AGENTS.md` convention but haven't been tested yet — reports welcome.
+
 ## How it works
 
 ```
