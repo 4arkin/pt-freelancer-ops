@@ -1,0 +1,6 @@
+profile.md
+records/
+.DS_Store
+*.pdf
+*.ics
+tests/results-*.md
