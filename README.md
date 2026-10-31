@@ -2,7 +2,7 @@
 
 An AI-operable admin kit for freelancers in Portugal. It covers recibos verdes, IVA, Segurança Social, IRS, certidões and residency paperwork, packaged so any AI agent (Claude, ChatGPT/Codex, Gemini, or whatever you use) can run your obligations calendar, walk you through the portals, and file the evidence.
 
-It came out of self-filing after replacing an accountant with an AI agent and a folder of markdown. Everything that the agent learned the hard way and that will happen to the next person too — deadlines, form walkthroughs, portal click paths, UI traps, the obligation people miss — is here. One-off case history is not.
+Everything that will happen to the next freelancer too — deadlines, form walkthroughs, portal click paths, UI traps, the obligation people miss — is here. One-off case history is not.
 
 > **Not tax or legal advice.** This is a working operator's notebook. Rules change with every Orçamento do Estado. Every playbook carries a *last verified* date, and facts are tagged *(official source)*, *(verified in practice)* or *(unverified)*. Check the portal before you rely on a number.
 
