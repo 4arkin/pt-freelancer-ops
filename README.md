@@ -27,10 +27,7 @@ pt-freelancer-ops gives your AI agent the calendar, the rules and the click path
 
 ## See it run
 
-<!-- Alex: on github.com, edit this README, drag assets/demo.mp4 into the editor, and replace the link below with the user-attachments URL that GitHub gives you. Then the video plays inline. -->
-<p align="center">
-  <a href="assets/demo.mp4"><img src="assets/demo-poster.png" width="880" alt="Play the 20-second video. You ask if férias fiscais move the Q2 recapitulativa to September. Your agent says no: it was due on 20 July. Then you see the year of deadlines, the status table, and the step where you press Entregar."></a>
-</p>
+https://github.com/user-attachments/assets/4630e9cf-9b28-410e-9ed5-bc02c9062965
 
 ## Before and after
 
